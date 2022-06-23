@@ -6,4 +6,13 @@ export default function App() {
       <Expenses />
     </div>
   );
+
+  //Alternative approach
+
+  // return React.createElement(
+  //   "div",
+  //   {},
+  //   React.createElement("h2", {}, "Lets get started!"),
+  //   React.createElement(Expenses, {})
+  // );
 }
